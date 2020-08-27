@@ -1,0 +1,75 @@
+#det-periodiske-system {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    
+}
+
+div {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#he {
+    grid-column-end: 19;
+}
+
+#b {
+    grid-column-end: 14;
+}
+
+#al {
+    grid-column-end: 14;
+}
+
+
+
+.ikke-metall {
+    background-color: rgb(235, 191, 191);
+}
+
+
+.edelgass {
+    background-color: rgb(240, 208, 240);
+}
+
+
+.alkali-metall {
+    background-color: rgb(220, 208, 240);
+}
+
+.jordalkali-metall {
+    background-color: rgb(208, 238, 240);
+}
+
+.halv-metall {
+    background-color: rgb(240, 208, 223);
+}
+
+.halogen {
+    background-color: rgb(206, 194, 229);
+}
+
+.metall {
+    background-color: rgb(176, 210, 243);
+}
+
+.transisjonsmetall {
+    background-color: rgb(230, 202, 243);
+}
+
+.transisjonmetall {
+    background-color: rgb(202, 243, 226);
+}
+
+.lantanoider {
+    background-color: rgb(213, 202, 243);
+}
+
+.aktinoider {
+    background-color: rgb(243, 242, 202);
+}
